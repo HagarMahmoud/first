@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>linkedPage</title>
+<script type="text/javascript">
+function check(login)
+{
+ 
+ if(document.login.user.value == "user" && document.login.password.value == "password")
+  {
+    window.open('www.facebook.com')
+  }
+ else
+ {
+   window.alert("Error Password or Username Try again")
+  }
+}
+</script>
+</head>
+<body bgcolor="pink">
+<div align="center">
+<form  name="login">
+<br>
+<h3><font color="blue" face="Tekton Pro">UserName</font></h3>
+<input type="text" name="user">
+<br><br>
+<h3><font color="blue" face="Tekton Pro">Password</font></h3>
+<input type="password"  name="password" size="20">
+
+<br>
+<br>
+<br>
+<input type="button" value="Log in" onClick="check(this.login)">
+<br>
+<br>
+<input type="reset"  name="Cancel" >
+<br><br><br>
+<h3><font color="blue" face="Tekton Pro">Your Comment</font></h3>
+<textarea rows="5" cols="20" ></textarea>
+<br><br><br>
+<br>
+</form>
+</div> 
+<div align="center" class="foter">
+<a href="cont.html/#fb"><font color="blue" face="Tekton Pro">contact</font></a>|
+<a href="cont.html/#info"><font color="blue" face="Tekton Pro">information</font></a>|
+<a href="cont.html/#call"><font color="blue" face="Tekton Pro">call</font></a>
+</br>
+<span class="title" align="center"><font color="blue" >right publishing is required©</font></span></h3></center>
+</div>
+
+</body>
+</html>
